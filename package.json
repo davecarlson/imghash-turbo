@@ -1,14 +1,14 @@
 {
-  "name": "imghash",
-  "version": "0.0.2",
-  "description": "Image perceptual hash calculation for node",
+  "name": "imghash-turbo",
+  "version": "1.0.0",
+  "description": "Image perceptual hash calculation for node with native jpeg-turbo",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pwlmaciejewski/imghash.git"
+    "url": "git+https://github.com/davecarlson/imghash-turbo.git"
   },
   "keywords": [
     "perseptual",
@@ -17,15 +17,15 @@
     "phash",
     "imgseek"
   ],
-  "author": "Paweł Maciejewski <fragphace@gmail.com>",
+  "author": "Dave Carlson <me@davecarlson.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pwlmaciejewski/imghash/issues"
+    "url": "https://github.com/davecarlson/imghash-turbo/issues"
   },
   "engines": {
     "node": ">=4.x.x"
   },
-  "homepage": "https://github.com/pwlmaciejewski/imghash#readme",
+  "homepage": "https://github.com/davecarlson/imghash-turbo#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "hamming-distance": "^1.0.0",
