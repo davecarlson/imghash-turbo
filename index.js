@@ -32,7 +32,7 @@ function hash(filepath, bits, format) {
     }
 
     if (ftype.mime === 'image/jpeg') {
-      return jpeg.decompressSync(fdata, { format: turbo.FORMAT_RGBA });
+      return jpeg.decompressSync(fdata, { format: jpeg.FORMAT_RGBA });
     }
 
     if (ftype.mime === 'image/png') {
