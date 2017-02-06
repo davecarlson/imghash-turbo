@@ -1,6 +1,12 @@
 # imghash-turbo 
 Promise-based image perceptual hash calculation for node, with support for jpg-turbo. A fork of 'imghash'
 
+## Pre Requisites
+
+You must have the packages specified in the jpeg-turbo docs installed to be able to build.
+https://github.com/sorccu/node-jpeg-turbo
+
+
 ## Installation
 
 ```
