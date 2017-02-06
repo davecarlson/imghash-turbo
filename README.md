@@ -1,16 +1,16 @@
-# imghash [![Build Status](https://secure.travis-ci.org/pwlmaciejewski/imghash.png?branch=master)](http://travis-ci.org/pwlmaciejewski/imghash) [![npm version](https://badge.fury.io/js/imghash.png)](https://badge.fury.io/js/imghash)
-Promise-based image perceptual hash calculation for node.
+# imghash-turbo 
+Promise-based image perceptual hash calculation for node, with support for jpg-turbo. A fork of 'imghash'
 
 ## Installation
 
 ```
-npm install imghash
+npm install imghash-turbo
 ```
 
 ## Basic usage
 
 ```javascript
-const imghash = require('imghash');
+const imghash = require('imghash-turbo');
 
 imghash
   .hash('path/to/file')
@@ -96,7 +96,7 @@ Parameters:
 
 ## Further reading
 
-`imghash` takes advantage of block mean value based hashing method:
+`imghash-turbo` takes advantage of block mean value based hashing method:
 
 * [http://stackoverflow.com/questions/14377854/block-mean-value-hashing-method](http://stackoverflow.com/questions/14377854/block-mean-value-hashing-method)
 * [http://commonsmachinery.se/2014/09/digital-image-matching-part-1-hashing/](http://commonsmachinery.se/2014/09/digital-image-matching-part-1-hashing/)
