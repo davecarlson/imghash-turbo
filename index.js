@@ -2,7 +2,7 @@
 
 const imageType = require('image-type');
 const fs = require('fs');
-const jpeg = require('jpeg-js');
+const jpeg = require('jpeg-turbo');
 const PNG = require('png-js');
 const bmp = require("bmp-js");
 const blockhash = require('blockhash');
@@ -32,7 +32,7 @@ function hash(filepath, bits, format) {
     }
 
     if (ftype.mime === 'image/jpeg') {
-      return jpeg.decode(fdata);
+      return jpeg.decompressSync(fdata, { format: turbo.FORMAT_RGBA });
     }
 
     if (ftype.mime === 'image/png') {
